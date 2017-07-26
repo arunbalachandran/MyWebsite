@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: python MyWebsite/manage.py runserver
