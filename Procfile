@@ -1,1 +1,1 @@
-web: python MyWebsite/manage.py runserver
+web: python manage.py runserver 0.0.0.0:$PORT --noreload
