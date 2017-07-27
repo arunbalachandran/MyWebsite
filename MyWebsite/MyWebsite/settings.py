@@ -25,7 +25,7 @@ SECRET_KEY = '+#4mp1ty1j=t^8!&z3eaxo&1_8zsc&7z7v!obwb)3l*zr-@)la'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['arunbalachandran.herokuapp.com']
+ALLOWED_HOSTS = ['arunbalachandran.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -119,5 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+# static root defined
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
