@@ -12,7 +12,7 @@ export const ExperienceCard = ({title, description, details}: {title: String, de
           <br />
           <ul>
           {
-            details.map((element, i) => {
+            details.map((element) => {
               return (
                 <li><h5 className="h5">{element}</h5></li>
               );
