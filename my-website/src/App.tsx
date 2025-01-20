@@ -1,17 +1,18 @@
-// import { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import { NavBar } from './components/NavBar';
+import { Projects } from './components/Projects';
+import { Experience } from './components/Experience';
+import { Banner } from './components/Banner';
 
 function App() {
   return (
-    <>
-      <h1>Arun Balchandran</h1>
-      <div className="card">
-        <p>
-          Welcome to my website.
-        </p>
-          TODO: add projects / resume
-      </div>
-    </>
+    <div className='App'>
+      <NavBar />
+      <Banner />
+      <Experience />
+      <Projects />
+    </div>
   )
 }
 
