@@ -6,10 +6,10 @@ export const Experience = () => {
   const projects = [
     {
       title: "CBRE",
-      description: "Senior Software Engineer",
+      description: "Principal Software Engineer",
       details: [
-        "Lead a team of 10, responsible for project delivery, technical solutioning of multiple workflows in the system using a microservices based architecture deployed on Kubernetes.",
-        "Worked as a senior software engineer",
+        "Lead a team of 12, responsible for project delivery, technical solutioning of multiple workflows in the system using a microservices based architecture deployed on Kubernetes.",
+        "Work as a Principal software engineer",
         "Designed and delivered workflows responsible for storage and processing of data for millions of assets across multiple regions with a throughput of greater than 2 million requests a day, resulting in a 500% increase in processing speed.",
         "As the SME, facilitated seamless collaboration between Product and multiple tech teams.",
         "Collaborate with Product and Architecture to design domain driven, scalable and performant services.",
